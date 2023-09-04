@@ -1,0 +1,16 @@
+{
+    "pools": [
+        {
+            "name": "Goerli/BOB->USDC",
+            "subgraph_endpoint": "https://api.thegraph.com/subgraphs/name/zkbob/zkbob-bob-goerli",
+            "slack_webhook": "...", 
+            "explorer_prefix": "https://goerli.etherscan.io/tx/",
+            "monitors": [
+                {
+                    "mode": "PendingDD",
+                    "deposit_submit_threshold": 3600
+                }
+            ]
+        }
+    ]
+}

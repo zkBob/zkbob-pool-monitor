@@ -1,0 +1,4 @@
+pydantic==1.10.12
+pydantic[dotenv]
+sgqlc==16.3
+requests==2.31.0

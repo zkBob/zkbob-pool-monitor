@@ -1,0 +1,12 @@
+.env
+docker-compose.yml
+.git
+.github
+.gitignore
+.ipynb_checkpoints
+README.md
+[^/]*.json
+[^/]*.example
+.devcontainer
+**/*/__pycache__
+**/*/*.ipynb
